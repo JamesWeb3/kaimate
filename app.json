@@ -1,30 +1,36 @@
 {
   "expo": {
-    "name": "kaimate",
-    "slug": "kaimate",
+    "name": "Kaimate",
+    "slug": "kai-mate",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/kaimate-logo.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/kaimate-logo.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#FCFAF6"
     },
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
+        "backgroundColor": "#FCFAF6",
+        "foregroundImage": "./assets/kaimate-logo.png"
       },
-      "predictiveBackGestureEnabled": false
+      "package": "com.jimmythedev.kaimate"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/kaimate-logo.png"
+    },
+    "plugins": [
+      "expo-asset"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "ab27a44e-9b96-4224-8a04-d58178ebb5ea"
+      }
     }
   }
 }
